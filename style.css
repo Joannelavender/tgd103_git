@@ -1,8 +1,21 @@
 body{
     background-color: red;
-    color:bisque
+    color:bisque;
+    margin:0;
 }
 
 h1{
     font-size: 40px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.wrapper nav ul{
+    list-style: none;
+}
+
+.wrapper nav ul li{
+    display: flex;
 }
